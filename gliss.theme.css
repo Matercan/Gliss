@@ -2,14 +2,14 @@
  * @name Gliss
  * @author Matercan
  * @version 1.0.0
- * @source https://gitlab.com/Matercan/gliss
- * @website https://B4T3S.gitlab.io/bates-discord-theme/
- * @donate https://www.paypal.com/paypalme/floriancegledi
- * @patreon https://patreon.com/bates
- * @description A 
- * * @authorId 137259132305539072
- * @invite 6qd3SkP6Ch
+ * @source https://github.com/Matercan/Gliss
+ * @description An elegant dignified curated transparent better discord theme
+ * * @authorId 777170937682329601
 */
+
+/* Note: Theme with parts stolen from Dark Neon theme! */
+
+@import "https://raw.githubusercontent.com/Matercan/Gliss/refs/heads/main/main.css"
 
 /* CUSTOMIZE COLORS IN HERE! */
 :root,
