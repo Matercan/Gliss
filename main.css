@@ -58,7 +58,7 @@ textarea {
   --activity-card-background: rgba(var(--background), 20%);
   --header-primary: rgb(var(--rgb-highlight));
   --header-secondary: rgb(var(--rgb-highlight));
-  --chat-background: var(--background);
+  --chat-background: var(--background) !important;
   --chat-border: transparent;
   --chat-input-container-background: var(--background);
   --spoiler-hidden-background: var(--highlight);
@@ -69,7 +69,7 @@ textarea {
   --control-brand-foreground: var(--highlight);
   --control-brand-foreground-new: var(--highlight);
   --background-mentioned: rgba(var(--rgb-highlight), 30%);
-  --background-mentioned-hover: rgba(var(--rgb-highlight), 40%);
+  --background-mentioned-hover: rgba(var(--rgb-highlight), 30%);
   --background-message-hover: rgba(var(--rgb-highlight), 10%);
   --background-message-highlight: rgba(var(--rgb-highlight), 30%);
   --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%);
@@ -78,11 +78,11 @@ textarea {
   --channeltextarea-background: var(--background);
   --text-link: var(--highlight);
   --text-link-low-saturation: rgba(var(--rgb-highlight), 50%);
-  --text-positive: var(--online-color);
-  --text-warning: var(--afk-color);
-  --text-danger: var(--dnd-color);
-  --text-brand: var(--highlight);
-  --text-normal: var(--text);
+  --text-positive: var(--online-color) !important;
+  --text-warning: var(--afk-color) !important;
+  --text-danger: var(--dnd-color) !important;
+  --text-brand: var(--highlight) !important;
+  --text-normal: var(--text) !important;
   --text-muted: var(--text);
   --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
   --button-danger-background: rgba(var(--rgb-close-button), 20%);
