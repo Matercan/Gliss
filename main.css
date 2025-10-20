@@ -9,6 +9,7 @@ textarea {
   font-family: "Roboto";
 }
 
+/* sets variables */
 :root,
 .visual-refresh,
 .visual-refresh.theme-dark {
@@ -224,6 +225,47 @@ textarea {
   --background-modifier-accent: rgb(var(--rgb-highlight));
 }
 
+/* random discord bullshit */
+#private-channels [href="/discovery"] {
+  display: none;
+}
+
+#private-channels [href="/library"] {
+  display: none;
+}
+
+#private-channels [href="/store"] {
+  display: none;
+}
+
+/* account profiles */
+.accountProfileCard__1fed1 {
+  background-color: transparent !important;
+}
+
+.background__1fed1 {
+  padding: 0;
+  background-color: transparent !important;
+  border-radius: 30px;
+}
+
+.background__1fed1 .profile_d6fbe8 {
+  padding: 16px;
+}
+
+.background__1fed1 .fieldList__1fed1 {
+  padding: 16px;
+  background-color: transparent !important;
+}
+
+.itemsContainer_ef3116 {
+  background: transparent;
+}
+
+.content__37e49 {
+  background: transparent !important;
+}
+
 .c,
 .container_c8ffbb,
 .members_c8ffbb,
@@ -241,6 +283,7 @@ textarea {
   border: 0 !important;
 }
 
+/* gets ride of stupid gradients */
 .children__9293f:after,
 .chatGradient__36d07,
 .sidebar_c48ade:after,
@@ -248,9 +291,8 @@ textarea {
   background: none !important;
 }
 
-.theme-light body,
-.theme-dark body,
-.theme-darker body {
+/* set main body to be transparent */
+body {
   background-color: rgba(var(--background), 20%);
   background-image: var(--background-image);
   background-position: var(--background-position);
@@ -258,7 +300,7 @@ textarea {
   backdrop-filter: blur(var(--background-blur)) brightness(var(--background-brightness))
 }
 
-
+/* transparentize main body */
 .appMount__51fd7,
 .app__160d8,
 .bg__960e4,
@@ -273,6 +315,10 @@ textarea {
 .searchBar__97492,
 .container_c8ffbb,
 .members_c8ffbb,
+.member_c8ffbb,
+.membersGroup_c8ffbb,
+.members_c8ffbb>div,
+.membersWrap_c8ffbb,
 .content_f75fb0,
 .container__91a9d,
 .channelTextArea__74017,
