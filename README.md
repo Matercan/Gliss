@@ -30,6 +30,10 @@ Gliss is an elegant, distinct and transparent better discord theme for [betterdi
 - Drag and drop release into your browser, it should install itself
 - Click on extention icon and copy and paste gliss.theme.css contents into window
 
+> [! IMPORTANT]
+> If on zen browser, you need to instsall the transparent zen mod, and enable window transparency in about:config
+> If on any other browser, this discord theme will most likely not work
+
 ### For BetterDiscord
 
 - Ensure [BetterDiscord](https://betterdiscord.app/) is installed 
