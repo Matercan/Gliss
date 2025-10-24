@@ -15,6 +15,8 @@ textarea {
 .visual-refresh.theme-dark {
   --highlight: rgb(var(--rgb-highlight));
   --rgb-background: 0, 0, 0;
+  --transparency: 40%;
+  --smaller-tranpsarency: var(var(--transparency)) / 2;
   --background: rgb(var(--rgb-background));
   --rgb-text: 197, 200, 198;
   --text: rgb(var(--rgb-text));
@@ -36,34 +38,34 @@ textarea {
   --scrollbar-auto-scrollbar-color-track: transparent;
   --transition-time: .3s;
   --background-brightness: 100%;
-  --background-primary: rgba(var(--background), 20%);
-  --background-mobile-primary: rgba(var(--background), 20%);
-  --background-secondary: rgba(var(--background), 20%) !important;
-  --background-mobile-secondary: rgba(var(--background), 20%);
-  --background-secondary-alt: rgba(var(--background), 20%);
-  --background-tertiary: rgba(var(--background), 20%);
-  --background-accent: rgba(var(--background), 20%);
-  --background-floating: rgba(var(--background), 20%);
-  --background-nested-floating: rgba(var(--background), 20%);
-  --background-modifier-accent: rgba(var(--rgb-highlight), 20%);
+  --background-primary: rgba(var(--background), var(smaller-transparenc)y);
+  --background-mobile-primary: rgba(var(--background), var(smaller-transparenc)y);
+  --background-secondary: rgba(var(--background), var(smaller-transparency)) !important;
+  --background-mobile-secondary: rgba(var(--background), var(--smaller-transparency));
+  --background-secondary-alt: rgba(var(--background), var(--smaller-transparency));
+  --background-tertiary: rgba(var(--background), var(--smaller-transparency));
+  --background-accent: rgba(var(--background), var(--smaller-transparency));
+  --background-floating: rgba(var(--background), var(--smaller-transparency));
+  --background-nested-floating: rgba(var(--background), var(--smaller-transparency));
+  --background-modifier-accent: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --background-modifier-hover: rgba(var(--rgb-highlight), 10%);
   --background-modifier-active: rgba(var(--rgb-highlight), 30%);
   --background-modifier-selected: var(--rgb-highlight);
-  --background-base-lowest: rgba(var(--background), 20%);
-  --background-base-low: rgba(var(--background), 20%);
-  --background-surface-high: rgba(var(--background), 20%);
-  --modal-background: rgba(var(--background), 20%);
-  --modal-footer-background: rgba(var(--background), 20%);
-  --background-floating: rgba(var(--background), 20%);
-  --bg-surface-overlay: rgba(var(--background), 20%);
-  --activity-card-background: rgba(var(--background), 20%);
+  --background-base-lowest: rgba(var(--background), var(--smaller-transparency));
+  --background-base-low: rgba(var(--background), var(--smaller-transparency));
+  --background-surface-high: rgba(var(--background), var(--smaller-transparency));
+  --modal-background: rgba(var(--background), var(--smaller-transparency));
+  --modal-footer-background: rgba(var(--background), var(--smaller-transparency));
+  --background-floating: rgba(var(--background), var(--smaller-transparency));
+  --bg-surface-overlay: rgba(var(--background), var(--smaller-transparency));
+  --activity-card-background: rgba(var(--background), var(--smaller-transparency));
   --header-primary: rgb(var(--rgb-highlight));
   --header-secondary: rgb(var(--rgb-highlight));
   --chat-background: var(--background) !important;
   --chat-border: transparent;
   --chat-input-container-background: var(--background);
   --spoiler-hidden-background: var(--highlight);
-  --spoiler-revealed-background: rgba(var(--rgb-highlight), 20%);
+  --spoiler-revealed-background: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --input-background: var(--background);
   --textbox-markdown-syntax: var(--highlight);
   --logo-primary: var(--highlight);
@@ -73,9 +75,9 @@ textarea {
   --background-mentioned-hover: rgba(var(--rgb-highlight), 30%);
   --background-message-hover: rgba(var(--rgb-highlight), 10%);
   --background-message-highlight: rgba(var(--rgb-highlight), 30%);
-  --background-message-highlight-hover: rgba(var(--rgb-highlight), 40%);
-  --background-message-automod: rgba(var(--rgb-highlight), 20%);
-  --background-message-automod-hover: rgba(var(--rgb-highlight), 40%);
+  --background-message-highlight-hover: rgba(var(--rgb-highlight), var(--transparency));
+  --background-message-automod: rgba(var(--rgb-highlight), var(--smaller-transparency));
+  --background-message-automod-hover: rgba(var(--rgb-highlight), var(--transparency));
   --channeltextarea-background: var(--background);
   --text-link: var(--highlight);
   --text-link-low-saturation: rgba(var(--rgb-highlight), 50%);
@@ -85,8 +87,8 @@ textarea {
   --text-brand: var(--highlight) !important;
   --text-normal: var(--text) !important;
   --text-muted: var(--text);
-  --button-danger-background-disabled: rgba(var(--rgb-close-button), 20%);
-  --button-danger-background: rgba(var(--rgb-close-button), 20%);
+  --button-danger-background-disabled: rgba(var(--rgb-close-button), var(--smaller-transparency));
+  --button-danger-background: rgba(var(--rgb-close-button), var(--smaller-transparency));
   --button-danger-background-hover: rgba(var(--rgb-close-button), 70%);
   --button-danger-background-active: rgba(var(--rgb-close-button), 100%);
   --button-outline-danger-border: rgba(var(--rgb-close-button), 50%);
@@ -98,8 +100,8 @@ textarea {
   --button-outline-danger-text-active: rgba(var(--rgb-close-button), 100%);
   --button-outline-danger-border-hover: rgba(var(--rgb-close-button), 70%);
   --button-outline-danger-border-active: rgba(var(--rgb-close-button), 100%);
-  --button-positive-background-disabled: rgba(var(--rgb-online-color), 20%);
-  --button-positive-background: rgba(var(--rgb-online-color), 20%);
+  --button-positive-background-disabled: rgba(var(--rgb-online-color), var(--smaller-transparency));
+  --button-positive-background: rgba(var(--rgb-online-color), var(--smaller-transparency));
   --button-positive-background-hover: rgba(var(--rgb-online-color), 70%);
   --button-positive-background-active: rgba(var(--rgb-online-color), 100%);
   --button-outline-positive-border: rgba(var(--rgb-online-color), 50%);
@@ -111,8 +113,8 @@ textarea {
   --button-outline-positive-text-active: rgba(var(--rgb-online-color), 100%);
   --button-outline-positive-border-hover: rgba(var(--rgb-online-color), 70%);
   --button-outline-positive-border-active: rgba(var(--rgb-online-color), 100%);
-  --button-primary-background-disabled: rgba(var(--rgb-highlight), 20%);
-  --button-primary-background: rgba(var(--rgb-highlight), 20%);
+  --button-primary-background-disabled: rgba(var(--rgb-highlight), var(--smaller-transparency));
+  --button-primary-background: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --button-primary-background-hover: rgba(var(--rgb-highlight), 70%);
   --button-primary-background-active: rgba(var(--rgb-highlight), 100%);
   --button-outline-primary-border: rgba(var(--rgb-highlight), 50%);
@@ -124,8 +126,8 @@ textarea {
   --button-outline-primary-text-active: rgba(var(--rgb-highlight), 100%);
   --button-outline-primary-border-hover: rgba(var(--rgb-highlight), 70%);
   --button-outline-primary-border-active: rgba(var(--rgb-highlight), 100%);
-  --button-secondary-background-disabled: rgba(var(--rgb-highlight), 20%);
-  --button-secondary-background: rgba(var(--rgb-highlight), 20%);
+  --button-secondary-background-disabled: rgba(var(--rgb-highlight), var(--smaller-transparency));
+  --button-secondary-background: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --button-secondary-background-hover: rgba(var(--rgb-highlight), 70%);
   --button-secondary-background-active: rgba(var(--rgb-highlight), 100%);
   --button-outline-secondary-border: rgba(var(--rgb-highlight), 50%);
@@ -137,8 +139,8 @@ textarea {
   --button-outline-secondary-text-active: rgba(var(--rgb-highlight), 100%);
   --button-outline-secondary-border-hover: rgba(var(--rgb-highlight), 70%);
   --button-outline-secondary-border-active: rgba(var(--rgb-highlight), 100%);
-  --button-brand-background-disabled: rgba(var(--rgb-highlight), 20%);
-  --button-brand-background: rgba(var(--rgb-highlight), 20%);
+  --button-brand-background-disabled: rgba(var(--rgb-highlight), var(--smaller-transparency));
+  --button-brand-background: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --button-brand-background-hover: rgba(var(--rgb-highlight), 70%);
   --button-brand-background-active: rgba(var(--rgb-highlight), 100%);
   --button-outline-brand-border: rgba(var(--rgb-highlight), 50%);
@@ -150,7 +152,7 @@ textarea {
   --button-outline-brand-text-active: rgba(var(--rgb-highlight), 100%);
   --button-outline-brand-border-hover: rgba(var(--rgb-highlight), 70%);
   --button-outline-brand-border-active: rgba(var(--rgb-highlight), 100%);
-  --button-filled-brand-background: rgba(var(--rgb-highlight), 20%);
+  --button-filled-brand-background: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --button-filled-brand-background-hover: rgba(var(--rgb-highlight), 70%);
   --button-filled-brand-background-border: rgba(var(--rgb-highlight), 50%);
   --button-filled-brand-background-active: rgba(var(--rgb-highlight), 100%);
@@ -161,7 +163,7 @@ textarea {
   --search-popout-option-user-username: rgba(var(--rgb-highlight), 70%);
   --search-popout-option-filter-text: rgba(var(--rgb-highlight), 70%);
   --search-popout-date-picker-border: 1px solid var(--highlight);
-  --interactive-muted: rgba(var(--rgb-highlight), 20%);
+  --interactive-muted: rgba(var(--rgb-highlight), var(--smaller-transparency));
   --interactive-normal: rgba(var(--rgb-highlight), 50%);
   --interactive-hover: rgba(var(--rgb-highlight), 100%);
   --interactive-active: var(--highlight);
@@ -293,7 +295,7 @@ textarea {
 
 /* set main body to be transparent */
 body {
-  background-color: rgba(var(--background), 20%);
+  background-color: rgba(var(--background), var(--smaller-transparency));
   background-image: var(--background-image);
   background-position: var(--background-position);
   background-size: var(--background-size);
@@ -309,6 +311,7 @@ body {
 .sidebar_c48ade,
 .sidebar_c48ade::after,
 .container__2637a,
+.container__02a39,
 .chat_f75fb0,
 .chatContent_f75fb0,
 .title_f75fb0,
@@ -345,7 +348,7 @@ body {
 .searchHeader_f3b986,
 .messagesPopout__45690,
 .tabBody__133bf {
-  background: rgba(var(--background), 20%) !important;
+  background: rgba(var(--background), var(--smaller-transparency)) !important;
 }
 
 .contentWrapper__08434,
@@ -360,5 +363,5 @@ body {
 .emojiPicker_c0e32c,
 .unicodeShortcut_b9ee0c,
 #gif-picker-tab-panel {
-  background-color: rgba(var(--background), 40%) !important;
+  background-color: rgba(var(--background), var(--transparency)) !important;
 }
