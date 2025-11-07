@@ -38,8 +38,8 @@ textarea {
   --scrollbar-auto-scrollbar-color-track: transparent;
   --transition-time: .3s;
   --background-brightness: 100%;
-  --background-primary: rgba(var(--background), var(smaller-transparenc)y);
-  --background-mobile-primary: rgba(var(--background), var(smaller-transparenc)y);
+  --background-primary: rgba(var(--background), var(smaller-transparency));
+  --background-mobile-primary: rgba(var(--background), var(smaller-transparency));
   --background-secondary: rgba(var(--background), var(smaller-transparency)) !important;
   --background-mobile-secondary: rgba(var(--background), var(--smaller-transparency));
   --background-secondary-alt: rgba(var(--background), var(--smaller-transparency));
@@ -274,6 +274,7 @@ textarea {
 .container__2637a,
 .chatContent_f75fb0,
 .sidebarList_c48ade,
+.sidebarList__5e434,
 .panels_c48ade,
 .privateChannels__35e86,
 .scroller__99e7c,
